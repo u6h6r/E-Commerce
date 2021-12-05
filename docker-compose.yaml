@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  ds-ecommerce:
+    build:
+        context: .
+    environment:
+      - JUPYTER_TOKEN=ecommerce
+    volumes:
+      - ./:/home/jovyan/work
+    ports:
+      - 8888:8888
+    container_name: ds-ecommerce
