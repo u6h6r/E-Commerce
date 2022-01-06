@@ -1,1 +1,4 @@
 Lifetimes==0.11.3
+matplotlib
+sklearn
+seaborn
